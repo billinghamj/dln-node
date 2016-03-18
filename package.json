@@ -1,6 +1,6 @@
 {
   "name": "dln",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Generates and validates driving license numbers (DLNs)",
   "homepage": "https://github.com/billinghamj/dln-node",
   "bugs": "https://github.com/billinghamj/dln-node/issues",
