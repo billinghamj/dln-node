@@ -30,7 +30,10 @@
 			},
 
 			"personalName": {
-				"type": "string"
+				"anyOf": [
+					{ "type": "null" },
+					{ "type": "string" }
+				]
 			},
 
 			"birthDate": {
