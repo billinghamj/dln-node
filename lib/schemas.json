@@ -1,0 +1,47 @@
+{
+	"dln": {
+		"type": "string",
+		"minLength": 16,
+		"maxLength": 16,
+		"pattern": "^[A-Z]{1,5}9{0,4}[0-9]([05][1-9]|[16][0-2])([0][1-9]|[12][0-9]|3[01])[0-9](99|[A-Z][A-Z9])[A-HJ-NPR-WX2-9][A-Z]{2}$"
+	},
+
+	"finalCharacters": {
+		"type": "string",
+		"minLength": 3,
+		"maxLength": 3,
+		"pattern": "^[A-HJ-NPR-WX2-9][A-Z]{2}$"
+	},
+
+	"userDetails": {
+		"type": "object",
+		"additionalProperties": false,
+
+		"required": [
+			"familyName",
+			"birthDate",
+			"sex"
+		],
+
+		"properties": {
+			"familyName": {
+				"type": "string",
+				"minLength": 1
+			},
+
+			"personalName": {
+				"type": "string"
+			},
+
+			"birthDate": {
+				"type": "string",
+				"format": "date"
+			},
+
+			"sex": {
+				"type": "string",
+				"enum": ["M", "F"]
+			}
+		}
+	}
+}

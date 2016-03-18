@@ -1,6 +1,6 @@
 {
   "name": "dln",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Generates and validates driving license numbers (DLNs)",
   "homepage": "https://github.com/billinghamj/dln-node",
   "bugs": "https://github.com/billinghamj/dln-node/issues",
@@ -10,6 +10,10 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/billinghamj/dln-node.git"
+  },
+  "dependencies": {
+    "is-my-json-valid": "^2.13.1",
+    "speed-date": "^0.2.1"
   },
   "keywords": [
     "dln",
