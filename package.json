@@ -1,0 +1,30 @@
+{
+  "name": "dln",
+  "version": "0.0.0",
+  "description": "Generates and validates driving license numbers (DLNs)",
+  "homepage": "https://github.com/billinghamj/dln-node",
+  "bugs": "https://github.com/billinghamj/dln-node/issues",
+  "license": "MIT",
+  "author": "James Billingham <james@jamesbillingham.com> (http://jamesbillingham.com)",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/billinghamj/dln-node.git"
+  },
+  "keywords": [
+    "dln",
+    "driving",
+    "licence",
+    "license",
+    "number",
+    "dvla",
+    "uk",
+    "validate",
+    "validation",
+    "validator",
+    "generate",
+    "generation",
+    "generator",
+    "verify"
+  ]
+}
