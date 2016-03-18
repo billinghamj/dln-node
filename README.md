@@ -11,14 +11,14 @@ import DLN from 'dln';
 const user1 = {
 	familyName: 'Morgan',
 	personalName: 'Sarah Meredyth',
-	birthDate: new Date('1964-07-05'),
+	birthDate: '1964-07-05',
 	sex: 'F',
 };
 
 const user2 = {
 	familyName: 'Gardner',
 	personalName: 'Charles',
-	birthDate: new Date('1969-05-10'),
+	birthDate: '1969-05-10',
 	sex: 'M',
 };
 
@@ -71,7 +71,7 @@ The user details information, when provided, must be exactly as specified below:
 {
 	familyName: 'von Neumann', // required, string - can contain spaces
 	personalName: 'John', // optional, string - first names, including middle names
-	birthDate: new Date('1969-05-10'), // required, Date - time elements ignored
+	birthDate: '1969-05-10', // required, string - YYYY-MM-DD date
 	sex: 'M', // required, string, (M|F) - whatever the person has stated to the DVLA
 }
 ```
