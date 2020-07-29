@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "is-my-json-valid": "^2.13.1",
-    "speed-date": "^0.2.1"
+    "speed-date": "^1.0.0"
   },
   "keywords": [
     "dln",
